@@ -8,6 +8,12 @@ from __future__ import unicode_literals
 
 from barcode.ean import EuropeanArticleNumber13
 
+# Python 3
+try:
+    reduce
+except NameError:
+    from functools import reduce
+
 __docformat__ = 'restructuredtext en'
 
 

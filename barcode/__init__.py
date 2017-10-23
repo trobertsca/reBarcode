@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-viivakoodi
+reBarcode
 ==========
 
 This package provides a simple way to create standard barcodes.
@@ -10,16 +10,16 @@ installed, the barcodes can also be rendered as images (all
 formats supported by PIL).
 """
 
-__project__ = 'viivakoodi'
-__author__ = 'Thorsten Weimann, Alexander Shorin'
-__copyright__ = '2010-2013, Thorsten Weimann; 2014, Alexander Shorin'
-__author_email__ = 'kxepal@gmail.com'
+__project__ = 'reBarcode'
+__author__ = 'Thorsten Weimann, Alexander Shorin, Timothy Roberts'
+__copyright__ = '2010-2013, Thorsten Weimann; 2014, Alexander Shorin; 2017, Timothy Roberts'
+__author_email__ = 'timothyroberts.ca@gmail.com'
 __description__ = ('Create standard barcodes with Python. No external '
                    'modules needed (optional PIL support included).')
-__version__ = '0.8.0'
+__version__ = '0.1.0'
 __release__ = '{version}'.format(version=__version__)
 __license__ = 'MIT'
-__url__ = 'https://github.com/kxepal/viivakoodi'
+__url__ = 'https://github.com/trobertsca/reBarcode'
 __classifiers__ = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',

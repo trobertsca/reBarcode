@@ -30,7 +30,7 @@ script:
   - tox
 
 after_success:
-  - pylint viivakoodi
+  - pylint reBarcode
   - pip install coveralls
   - coveralls
 
